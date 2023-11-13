@@ -1,0 +1,20 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    width: 1450px;
+    height: 426;
+    margin-top:100px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    left:-6px;
+    border: 1px solid #816F8C;
+    border-radius: 1px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+
+    p{
+        color: #816F8C;
+    }
+}

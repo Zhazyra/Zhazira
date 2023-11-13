@@ -1,0 +1,51 @@
+.heroin{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 1200px;
+    position: absolute;
+}
+
+.heroin-img{
+    position: relative;
+    top: -100px;
+    left: 1000px;
+}
+.hero2_text{
+    color: $secondary-brown;
+    display: flex;
+    flex-direction: column;
+    justify-content:baseline;
+    gap: 40px;
+    position: relative;
+    top: 50px;
+    
+    
+
+    h4 {
+        margin-right: 2px; 
+        color: $secondary-black;
+        font-size: 23px;
+        font-weight: 500;
+}
+    h1 {
+    font-size: 58px;
+    font-weight: bold;
+    color: $secondary-brown;
+}
+p {
+    color: #826F8C;
+    size: 18px;
+    line-height: 29px;
+}
+button {
+    @include mainBtn;
+}
+.hero2_button{
+    display: flex;
+    gap: 50px;
+}
+}
+
+

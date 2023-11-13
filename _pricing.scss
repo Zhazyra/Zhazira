@@ -1,0 +1,135 @@
+.pricing{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 30px;
+}
+h4 {
+    margin-right: 2px; 
+    color: $secondary-black;
+    font-size: 23px;
+    font-weight: 500;
+}
+h1 {
+font-size: 58px;
+font-weight: bold;
+color: $secondary-brown;
+}
+
+.cards{
+    display: flex;
+   flex-direction: row;
+    gap: 30px;
+
+}
+   
+
+    
+    .per{
+        display: flex;
+        flex-direction: row;
+        color: #EB8382;
+    }
+
+    .vector{
+        display: flex;
+        flex-direction: row;
+        p {
+            color: #486482; 
+        }
+        p:hover{
+            color: blue;
+        }
+    }
+
+
+
+
+.price {
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-self:baseline;
+   gap: 10px;
+    list-style-type: none;
+    border: 1px solid #eee;
+    background-color: #FBDACF;
+    border-radius: 20px;
+    width: 360px;
+    height: 500px;
+    padding-left: 10px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    img.animate1 {
+    
+        opacity: 1%;  
+
+}
+}
+
+.hover{
+    display: flex;
+    justify-content: space-between;
+}
+
+.price:hover {
+    background: linear-gradient(#446381,#826F8C);
+    scale: 110%;
+    h4{
+        color: #FFFFFF;
+    }
+    .vector{
+        color: #FFFFFF;
+    }
+    .vector p {
+        color: #FFFFFF;
+    }
+    img.animate1{
+        opacity: 1;
+    }
+}
+
+.price li{
+    padding: 20px;
+    text-align: center;
+   
+}
+
+.button {
+    background: linear-gradient(#4499D9,#6E6CC1);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    z-index: 3;
+    
+}
+.price {
+    div.button{
+    position: absolute;
+    z-index: 2;
+   
+    
+}
+img.animate2{
+    position: relative;
+    top: 70px;
+}
+}
+
+
+
+
+
+/* Change the width of the three columns to 100%
+(to stack horizontally on small screens) */
+@media only screen and (max-width: 600px) {
+    .card1 {
+        width: 100%;
+    }
+}
